@@ -19,7 +19,7 @@ function update_wowchemy () {
   hugo mod get -u ./...
   hugo mod tidy
 }
-
+#
 # Update Netlify config
 function update_netlify () {
   # - Update Netlify.toml with required Hugo version
